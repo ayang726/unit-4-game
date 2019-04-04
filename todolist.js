@@ -43,6 +43,17 @@ Fight Gameloop:
 End Game:
   Restart
 
+-------------------------------------------------
+Resources:
+https://www.kisspng.com/free/dwarf.html?size=medium
 
+7 Dwarfs: 
+Bashful- the shy one
+Doc- leader of the group, not too good at speaking
+Grumpy- always annoyed and irritated, doesn't like snow white
+Happy- fat, jolly, friendly, spreading joy to everyone
+Sneezy- likes to have fun, has never ending case of hay fever that makes him sneeze
+Sleepy- always tired, most observant
+Dopey- annoying, silly, the comic relief
 
 */
