@@ -1,0 +1,60 @@
+.title {
+    text-align: right;  
+}
+
+.label{
+    margin: 0;
+}
+
+
+.picker {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    border: 2px solid #000;
+    margin: 1em;
+    position: relative;
+    width: 150px;
+}
+
+.card-img-top {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+}
+
+
+.description {
+    position: absolute;
+    bottom:0;
+    left: 5px;
+    right:5px;
+    background: #eee;
+    box-shadow: 3px 3px 30px #555;
+    border-radius: 10%;
+    padding: 5px;
+    display: none;
+    transition-duration: 1s;
+    margin: 0;
+}
+
+.show-description{
+    display: block;
+    
+}
+
+.player{
+    background: lightgreen;
+}
+.enemy{
+    background: lightcoral;
+}
+.opponent {
+    background:gray;
+}
+
+.hide{
+    display: none;
+}
