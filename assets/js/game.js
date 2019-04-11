@@ -114,9 +114,7 @@ function roundCalculation() {
       unbindButtons();
     } else {
       unbindButtons();
-      setTimeout(function () {
-        enemySelection();
-      }, 1500);
+      enemySelection();
     }
   } else {
     counterAttack();
