@@ -1,5 +1,23 @@
+body{
+    background: url(../img/background-large.jpg) no-repeat;
+    background-size: cover;   
+}
+
+h1,h2,h3,h4,h5,h6   {
+    color: #eee;
+    text-shadow: 3px 3px 2px #000;
+}
+.card h4, .card h6 {
+    color: #000;
+    text-shadow: 1px 1px #eee;
+}
+
+
 .title {
-    text-align: right;  
+    font-size: 3.5em;
+    position: sticky;
+    text-align: right;
+    margin-right: 5vw;
 }
 #message{
     text-align: center;
@@ -19,6 +37,7 @@
     margin: 1em;
     position: relative;
     width: 150px;
+    background: rgba(255, 255, 255, 0.6);
 }
 
 .card-img-top {
@@ -48,13 +67,13 @@
 }
 
 .player{
-    background: lightgreen;
+    background: rgba(144, 238, 144, 0.7);
 }
 .enemy{
-    background: lightcoral;
+    background: rgba(240, 128, 128, 0.7);
 }
 .opponent {
-    background:gray;
+    background:rgba(128, 128, 128, 0.7);
 }
 
 .hide{
