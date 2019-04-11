@@ -1,6 +1,9 @@
 .title {
     text-align: right;  
 }
+#message{
+    text-align: center;
+}
 
 .label{
     margin: 0;
@@ -35,14 +38,13 @@
     box-shadow: 3px 3px 30px #555;
     border-radius: 10%;
     padding: 5px;
-    display: none;
-    transition-duration: 1s;
+    transition: 0.5s;
     margin: 0;
+    opacity: 0;
 }
 
 .show-description{
-    display: block;
-    
+    opacity: 1;
 }
 
 .player{
